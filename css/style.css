@@ -52,3 +52,50 @@ footer {
   background-color: #000;
   color: #FFF;
 }
+
+/* Global rules */
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+header a {
+  color: #FFF;
+  padding: 1rem;
+}
+
+a.brand {
+  color: #1DA1FF;
+  font-size: 3rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row.center {
+  justify-content: center;
+}
+
+/* Image */
+img {
+  border-radius: 0.5rem;
+}
+
+img.medium {
+  max-width: 29rem;
+  width: 100%;
+}
