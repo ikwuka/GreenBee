@@ -1,15 +1,12 @@
 @import url(../css/font.css);
 
+/* Font(s) variables creation */
 :root {
   /* Google fonts */
   --Josefin: 'Josefin', Helvetica, Verdana, Arial, sans-serif;
   --Lexend: 'Lexend', Helvetica, Verdana, Arial, sans-serif;
   --Livvic: 'Livvic', Helvetica, Verdana, Arial, sans-serif;
   --Roboto: 'Roboto', Helvetica, Verdana, Arial, sans-serif;
-  /* Colors */
-  --blue: #1DA1FF;
-  --white: #FFFFFF;
-  --black: #000000;
 }
 
 html {
