@@ -53,6 +53,7 @@ footer {
   background-color: #000;
   color: #FFF;
   font-family: var(--Lexend);
+  font-weight: bold;
 }
 
 /* Global rules */
@@ -78,10 +79,10 @@ a:hover {
 header a {
   color: #FFF;
   padding: 1rem;
+  font-weight: bold;
 }
 
 a.brand {
-  color: #1DA1FF;
   font-size: 3rem;
 }
 
