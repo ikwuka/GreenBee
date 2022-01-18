@@ -20,9 +20,9 @@ html {
 
 body {
   margin: 0;
-  height: 100vh;
   font-family: var(--Josefin);
   font-size: 1.6rem;
+  height: 100vh;
 }
 
 /* Layout */
@@ -52,10 +52,6 @@ footer {
   grid-area: footer;
   background-color: #000;
   color: #FFF;
-  font-weight: bold;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Global rules */
@@ -71,6 +67,10 @@ h2 {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: #1DA1FF;
 }
 
 /* Header */
