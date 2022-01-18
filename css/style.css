@@ -11,7 +11,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 1rem;
+  font-size: 62.5%; /* 16px * 62.5px = 10px = 1rem */
 }
 
 * {
@@ -52,6 +52,7 @@ footer {
   grid-area: footer;
   background-color: #000;
   color: #FFF;
+  font-family: var(--Lexend);
 }
 
 /* Global rules */
@@ -82,6 +83,10 @@ header a {
 a.brand {
   color: #1DA1FF;
   font-size: 3rem;
+}
+
+a.brand:hover {
+  font-size: 3.5rem;
 }
 
 .row {
@@ -122,11 +127,12 @@ img.medium {
 }
 
 .price {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-family: var(--Roboto);
 }
 
 /* Rating */
-.rating {
+.rating span {
   color: rgb(240, 192, 64);
   margin: 0.1rem;
 }
