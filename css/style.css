@@ -79,15 +79,15 @@ a:hover {
 header a {
   color: #FFF;
   padding: 1rem;
-  font-weight: bold;
 }
 
 a.brand {
   font-size: 3rem;
+  color: #1DA1FF;
 }
 
 a.brand:hover {
-  font-size: 3.5rem;
+  font-weight: bold;
 }
 
 .row {
